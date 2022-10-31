@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imgResizer Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <label for="">First: Select a file image:</label>
+        <label for="fileinput" class="mask-button">Choose a File</label>
+        <input type="file" name="fileinput" id="fileinput" accept="image/png, image/jpeg,image/apng, image/bmp, image/gif, image/pjpeg, image/svg+xml, image/tiff, image/webp, image/x-icon">
+        <label for="rangescale">Next: Select a value from range scale:</label>
+        <input type="range" name="rangescale" id="rangescale" max="2" min="0.1" step="0.1" value="1">
+        <label for="quality">Next: Select a quality value:</label>
+        <input type="number" name="quality" id="quality" value="1" step="0.1" min="0" max="1">
+        <p>Finally...</p>
+        <button id="execute">Go imgResizer!</button>
+        <script src="app.js" type="module"></script>
+    </section>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "img-resizer",
+  "version": "1.0.0",
+  "description": "Scale images of various formats (JPEG, PNG, BASE64 and others) and then publish or download.",
+  "main": "package/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolastuka/img-resizer.git"
+  },
+  "keywords": [
+    "scale",
+    "image",
+    "photo",
+    "picture",
+    "format"
+  ],
+  "author": "Nicolás Capel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolastuka/img-resizer/issues"
+  },
+  "homepage": "https://github.com/nicolastuka/img-resizer#readme"
+}
